@@ -1,0 +1,515 @@
+.container {
+  height: 100%;
+  width: 100%;
+}
+.firstDiv{
+  min-height: 794px;
+  background-image: url('../public/Rectangle\ 1.svg');
+  padding: 30px;
+  width: 100%;
+}
+.firstDivHeader{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.leftHeader{
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+}
+.firstDivInner{
+  width: auto;
+}
+.rightHeader{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menuItem{
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin: 0 15px;
+  cursor: pointer;
+}
+.locationName{
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  color: #D3944A;
+  margin: 0 15px;
+  cursor: pointer;
+}
+.firstDivContent{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  /* width: 100%; */
+}
+.contentTitle{
+  width: 631px;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 67px;
+  letter-spacing: 0.16em;
+  color: #FFFFFF;
+  margin: 120px 0;
+}
+.contentDetail{
+  width: 682px;
+  height: 98px;
+  background: #1D1D1D;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.addInformation{
+  width: 159px;
+  height: 56px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(20px);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+.detailDropdown{
+  position: absolute;
+  top: 62px;
+  z-index: 999999;
+  left: 5px;
+  width: 221px;
+  height: 144px;
+  background: rgba(44, 44, 46, 0.2);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+.singleInfo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.5px solid rgba(196, 196, 196, 0.3);
+  height: 48px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #FFFFFF;
+}
+.countContent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 10px;
+  color: #FFFFFF;
+}
+.makeElipsis{
+  width: 17px;
+  height: 17px;
+  background: rgba(196, 196, 196, 0.3);
+  border-radius: 50%;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.countValue{
+  margin: 0 5px;
+}
+.searchItems{
+  width: 44px;
+  height: 44px;
+  background: #D3944A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 50%;
+}
+.secondDiv{
+  /* height: 678px; */
+  /* background-image: url('../public/Rectangle 4.png'); */
+  padding: 80px;
+  /* background-color: rgba(29, 29, 29, 0.71) !important; */
+  background: #1D1D1D;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.bottomShadow{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.imgContent{
+  width: 571px;
+  float: right;
+  margin-left: 100px;
+}
+.imgTitle{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 67px;
+  text-align: right;
+  letter-spacing: 0.16em;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+.imgBody{
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: right;
+  color: #FFFFFF;
+  margin-bottom: 60px;
+}
+.ourHouseDiv{
+  display: flex;
+  justify-content: flex-end;
+}
+.ourHomesOuter{
+  width: 196px;
+  height: 56px;
+  background: rgba(211, 148, 74, 0.4);
+  backdrop-filter: blur(20px);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ourHouseInner{
+  width: 168px;
+  height: 37px;
+  background: #D3944A;
+  border-radius: 50px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  color: #F9FAFC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thirdDiv{
+  height: 693px;
+  background: #2D2F31;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+  position: relative;
+  padding-right: 20px;
+}
+.dealDiscountPortion{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dealsDiscountTitle{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 67px;
+  text-align: right;
+  letter-spacing: 0.16em;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+.dealDiscountDesc{
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+}
+.barcodeScan{
+  width: 127px;
+  height: 133px;
+  background: #F9FAFC;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fourthDiv{
+  height: 515px;
+  background: black;
+  /* text-align: center; */
+}
+.footerTitle{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.16em;
+  color: #FFFFFF;
+  padding: 50px 0 80px 0;
+  flex-wrap: wrap;
+}
+.reviewDesc{
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.slidingContent{
+  margin-top: 60px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+.slidingTitle{
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin: 0 40px;
+}
+.slideSpacing{
+  margin: 0 5px;
+}
+.fifthDiv{
+  /* height: 325px; */
+  background: linear-gradient(180deg, #141414 0.01%, #2D2F31 81.77%);
+  padding: 30px 160px 30px 50px;
+}
+.firstFisthDiv{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.aboutTitle{
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #FFFFFF;
+  margin: 10px;
+}
+.flexItem{
+  display: flex;
+}
+.slidingContent> span:nth-child(1){
+  cursor: pointer !important;
+}
+.slidingContent> span:nth-child(3){
+  cursor: pointer !important;
+}
+.imageContainer{
+  position: relative;
+  width: 502px;
+  height: 497px;
+}
+.imageContainer> span{
+  position: absolute !important;
+}
+.imageContainer> span:nth-child(1){
+  left: 0 !important;
+  top: 0 !important;
+  z-index: 0 !important;
+}
+.imageContainer> span:nth-child(2){
+  left: 25px !important;
+  top: 27px !important;
+  z-index: 1 !important;
+}
+.imageContainer> span:nth-child(3){
+  left: 52px !important;
+  top: 57px !important;
+  z-index: 0 !important;
+}
+.blankBackground{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 154.83px;
+  height: 48.57px;
+  background: #050708;
+  border-radius: 20px;
+  margin: 30px 0 0 15px;
+}
+.emailAddressBtn{
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+  width: 264px;
+  border-radius: 20px;
+  border: 1px solid #D3944A;
+}
+.subscribeBtn{
+  background: #D3944A;
+  border-radius: 20px;
+  height: 45px;
+  width: 141px;
+  border-radius: 20px;
+  margin-left: 20px;
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: -0.408px;
+  color: #F9FAFC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutSubTitle{
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 13px;
+  color: #FFFFFF;
+  margin: 28px 10px;
+}
+.aboutSubTitle2{
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 13px;
+  color: #FFFFFF;
+  margin: 22px 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footerItem{
+  display: flex;
+  justify-content: space-between;
+  /* position: fixed;
+  bottom: 45px; */
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 17px;
+  color: #FFFFFF;
+  align-items: center;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+.whiteCircle{
+  width: 36px;
+  height: 36px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexItemWithAlignCenter{
+  display: flex;
+  align-items: center;
+}
+.buttonWithFunctionality{
+  display: flex;
+}
+.aboutCompany{
+  margin-left: 35px;
+}
+
+@media screen and (max-width: 450px) {
+  .rightHeader{
+    margin-top: 20px !important;
+  }
+  .firstDivContent{
+    width: 100% !important;
+  }
+  .firstDivInner{
+    width: 100% !important;
+  }
+  .contentTitle{
+    width: 100% !important;
+  }
+  .imgContent{
+    margin-left: 0px !important;
+  }
+  .imgTitle{
+    text-align: center !important;
+  }
+  .imgBody{
+    text-align: center !important;
+  }
+  .ourHouseDiv{
+    justify-content: center !important;
+  }
+  .footerTitle{
+    font-size: 44px !important;
+  }
+  .buttonWithFunctionality{
+    flex-wrap: wrap;
+  }
+  .contentDetail{
+    width: 100% !important;
+  }
+  .detailDropdown{
+    left: -55px !important;
+  }
+  .aboutCompany{
+    margin-left: 0px !important;
+    margin-top: 15px !important;
+  }
+  .imageContainer{
+    height: 370px !important;
+  }
+  .fifthDiv{
+    padding: 30px 50px !important;
+  }
+}
